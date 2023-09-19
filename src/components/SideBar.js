@@ -14,14 +14,14 @@ const SideBar = () => {
   const [show, setshow] = useState(false);
 
   return (
-    <div className="sidebar w-1/4">
+    <div className="sidebar min-w-1/4">
       <div className="p-5">
         <div>
           <Image src={Logo} alt="logo" />
         </div>
-        <div className=" bg-white rounded-xl p-3 my-10 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]">
+        <div className=" optionBox bg-white rounded-xl p-3 my-10 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]">
           <div className="flex justify-between items-center ">
-            <Image src={Location} alt="location" />
+            <Image className="location" src={Location} alt="location" />
             <p>Rajarajeshwari Nagar</p>
             <Image
               src={Down}

@@ -9,7 +9,6 @@ export default function Home() {
     <MainPage>
     <TopBar/>
     </MainPage>
-
    </main>
   )
 }

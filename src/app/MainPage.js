@@ -10,7 +10,7 @@ const MainPage = ({children}) => {
   return (
     <div className='mainpage flex-1'>
     {children}
-    <div className='list sm:w-full md:w-7/12'>
+    <div className='list '>
     <div className=' flex items-center'>
       <h1 className=' text-2xl font-bold'>View Bookings</h1>
       <Image className=' mx-9 w-10' src={Phone} alt='phone'/>
